@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "317398616381",
+    "firebase_url": "https://exercicio-avaliativo-default-rtdb.firebaseio.com",
+    "project_id": "exercicio-avaliativo",
+    "storage_bucket": "exercicio-avaliativo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317398616381:android:6e1ddbcdeabef9e4be9d54",
+        "android_client_info": {
+          "package_name": "com.example.teste_aula14_10_222"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317398616381-o6n3lj3t9h3o6pja4ta89p4i5m4r4upm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOFBvNMMNevlRA9eoRWorStCOqDJF1oW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317398616381-o6n3lj3t9h3o6pja4ta89p4i5m4r4upm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

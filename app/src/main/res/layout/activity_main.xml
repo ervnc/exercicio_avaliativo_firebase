@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+    <TextView android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="130dp" android:layout_marginTop="16dp" android:text="@string/cod_item" android:textSize="16sp" app:layout_constraintStart_toEndOf="@+id/textView7" app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+    <TextView android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="16dp" android:text="@string/mesa" android:textSize="16sp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+    <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="24dp" android:text="@string/COD_ITEM" android:textSize="16sp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+    <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="24dp" android:text="@string/produto" android:textSize="16sp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+    <TextView android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="24dp" android:text="@string/pre_o" android:textSize="16sp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+    <TextView android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="16dp" android:text="@string/celular_do_gar_on" android:textSize="20sp" android:textStyle="bold" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="24dp" android:text="@string/celular_da_cozinha" android:textSize="20sp" android:textStyle="bold" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/btnCalcular"/>
+    <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="16dp" android:text="@string/MESA" android:textSize="16sp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+    <EditText android:id="@+id/txtMesa" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginEnd="16dp" android:ems="10" android:inputType="textPersonName" android:textSize="16sp" app:layout_constraintBaseline_toBaselineOf="@+id/textView3" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@+id/txtItem" tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
+    <EditText android:id="@+id/txtItem" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginEnd="16dp" android:ems="10" android:inputType="textPersonName" android:textSize="16sp" app:layout_constraintBaseline_toBaselineOf="@+id/textView4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@+id/txtProduto" tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
+    <EditText android:id="@+id/txtProduto" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:ems="10" android:inputType="textPersonName" android:textSize="16sp" app:layout_constraintBaseline_toBaselineOf="@+id/textView5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@+id/textView5" tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
+    <Button android:id="@+id/btnInserir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="24dp" android:text="@string/inserir_item" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/textView6"/>
+    <Button android:id="@+id/btnListar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="@string/listar_itens_da_mesa" app:layout_constraintStart_toEndOf="@+id/btnInserir" app:layout_constraintTop_toTopOf="@+id/btnInserir"/>
+    <Button android:id="@+id/btnCalcular" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="8dp" android:text="@string/calcular_conta" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/btnInserir"/>
+    <Button android:id="@+id/btnZerar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="8dp" android:text="@string/zerar_mesa" app:layout_constraintStart_toEndOf="@+id/btnCalcular" app:layout_constraintTop_toBottomOf="@+id/btnListar"/>
+
+    <EditText
+        android:id="@+id/txtPreco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txtProduto"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtMesaCoz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtItemCoz"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        android:autofillHints="" />
+    <Button android:id="@+id/btnAtender" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginTop="8dp" android:layout_marginEnd="16dp" android:text="@string/atender_item" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@+id/txtMesaCoz"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

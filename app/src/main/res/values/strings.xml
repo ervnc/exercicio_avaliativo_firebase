@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">teste_aula14_10_222</string>
+    <string name="cod_item">COD.ITEM:</string>
+    <string name="mesa">MESA:</string>
+    <string name="listar_itens_da_mesa">listar itens da mesa</string>
+    <string name="COD_ITEM">COD.ITEM:</string>
+    <string name="produto">PRODUTO:</string>
+    <string name="pre_o">PREÇO:</string>
+    <string name="celular_do_gar_on">Celular do Garçon</string>
+    <string name="celular_da_cozinha">Celular da Cozinha</string>
+    <string name="MESA">MESA:</string>
+    <string name="inserir_item">INSERIR ITEM</string>
+    <string name="calcular_conta">Calcular Conta</string>
+    <string name="zerar_mesa">zerar mesa</string>
+    <string name="atender_item">ATENDER ITEM</string>
+</resources>
